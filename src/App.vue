@@ -2,19 +2,14 @@
   <img alt="Vue logo" src="./assets/logo.png">
 
   <div class="container">
-    <page-home/>
+    <router-view/>
   </div>
 </template>
 
 <script>
-import PageHome from '@/components/PageHome'
-
-export default {
-  name: 'App',
-  components: {
-    PageHome
+  export default {
+    name: 'App',
   }
-}
 </script>
 
 <style>
